@@ -1,7 +1,8 @@
 """
 The main module from which the program will be executed.
 """
-
+# Standard Library Modules
+import platform
 
 # Third-party Library Modules
 from PIL import Image, ImageTk
@@ -31,7 +32,9 @@ photo_image = ImageTk.PhotoImage(icon_image)
 
 root.iconphoto(False, photo_image)
 root.wm_iconphoto(True, photo_image)
-root.iconbitmap('./assets/chordtranslatorlogo.png')
+
+if platform.system() == "Windows":
+    root.iconbitmap('./assets/chordtranslatorlogo.ico')
 
 # Set GUI theme
 customtkinter.set_appearance_mode("dark")
