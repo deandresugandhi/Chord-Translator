@@ -31,7 +31,7 @@ photo_image = ImageTk.PhotoImage(icon_image)
 
 root.iconphoto(False, photo_image)
 root.wm_iconphoto(True, photo_image)
-root.iconbitmap('./assets/chordtranslatorlogo.ico')
+root.iconbitmap('./assets/chordtranslatorlogo.png')
 
 # Set GUI theme
 customtkinter.set_appearance_mode("dark")
