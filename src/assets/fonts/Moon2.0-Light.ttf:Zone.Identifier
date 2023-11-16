@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/0ce0c2a0-9eb3-466b-b7f5-70f6262cda26/Moon2.0-Light.ttf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231116%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231116T124258Z&X-Amz-Expires=86400&X-Amz-Signature=438f04333bb132d577cbfd5e3efdd10a04828d6c6ac1951fe4ef843f39a79081&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Moon2.0-Light.ttf%22&response-content-type=font%2Fttf&x-id=GetObject
