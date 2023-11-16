@@ -4,6 +4,7 @@ The main module from which the program will be executed.
 
 
 # Third-party Library Modules
+from PIL import Image, ImageTk
 import customtkinter
 import pyglet
 
@@ -24,7 +25,12 @@ pyglet.font.add_file('./assets/fonts/Moon2.0-Regular.otf')
 root = customtkinter.CTk()
 root.title("Chord Translator")
 root.geometry("800x500")
-root.iconbitmap("./assets/chordtranslatorlogo.ico")
+
+icon_image = Image.open("./assets/chordtranslatorlogo.png")
+photo_image = ImageTk.PhotoImage(icon_image)
+
+root.iconphoto(False, photo_image)
+root.wm_iconphoto(True, photo_image)
 
 # Set GUI theme
 customtkinter.set_appearance_mode("dark")
